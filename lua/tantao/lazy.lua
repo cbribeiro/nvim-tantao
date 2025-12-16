@@ -20,3 +20,9 @@ require("lazy").setup("tantao.plugins", {
     notify = false,
   },
 })
+
+require('lazy').setup({
+  'nvim-treesitter/nvim-treesitter',
+  lazy = false,
+  build = ':TSUpdate'
+})
