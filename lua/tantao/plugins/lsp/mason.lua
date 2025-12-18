@@ -15,8 +15,8 @@ return {
                 "prismals",
                 "pyright",
                 "eslint",
-                "dart",
-                "go"
+                "dartls",
+                "gopls"
             },
         },
         dependencies = {
